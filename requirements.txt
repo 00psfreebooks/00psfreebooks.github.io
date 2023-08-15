@@ -1,0 +1,6 @@
+colorama
+#digital_ocean_spaces
+google_api_python_client
+google_auth_oauthlib
+protobuf
+tqdm

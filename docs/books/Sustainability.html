@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7QFRKMJ8TE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7QFRKMJ8TE');
+</script>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta 
+        name="description"
+        content="Author: gndpnwd
+        Free PDF books. 
+        Valuable content for free. 
+        No ads, no paywalls, no bullshit.">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/search.css">
+
+    <title>Freshavacado</title>
+</head>
+<body class="everything">
+
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div> 
+
+    <script>
+        window.onscroll = function() {progressbar()};
+
+        function progressbar() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+
+    <a href="https://00psfreebooks.github.io">
+        <img class="title" src="../assets/free_books.webp" alt="Free Books" stye="width:563px;height:251px;">
+    </a>
+
+    <script async src="../js/book_search.js"></script>
+    <div id="search-container">
+        <input type="text" id="search-bar" onkeyup="searchBooks()" placeholder="Search for a book...">
+        <div id="search-results" class="dropdown-content"></div>
+    </div>
+
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <button class="normal_button"><span onclick="window.open('https://drive.google.com/file/d/1Vr86aT1BeHYD2AtjshG1Pyhvb-Tajaw8/view?usp=sharing')"><strong>#1</strong><br>How To Grow More Vegetables</span></button>
+        </div>
+        
+        <div class="grid-item">
+            <button class="normal_button"><span onclick="window.open('https://drive.google.com/file/d/1W9_cdWyMnknwKJXi1gSM19PzRnHibBiv/view?usp=sharing')"><strong>#2</strong><br>Rodales Encyclopedia Of Organic Gardening</span></button>
+        </div>
+        
+        <div class="grid-item">
+            <button class="normal_button"><span onclick="window.open('https://drive.google.com/file/d/1VdH8_9r87_ANQ5ktqgX2hqyezsnsZ2m9/view?usp=sharing')"><strong>#3</strong><br>The Complete Distiller</span></button>
+        </div>
+        
+        <div class="grid-item">
+            <button class="normal_button"><span onclick="window.open('https://drive.google.com/file/d/1ewdXs24-AxM3niLEz_owKS4sFiyoGmOq/view?usp=sharing')"><strong>#4</strong><br>The Encyclopedia Of Country Living</span></button>
+        </div>
+        
+        <div class="grid-item">
+            <button class="normal_button"><span onclick="window.open('https://drive.google.com/file/d/1euMmAGpGWQxdS_7jFil6zrLK-FfO7PAJ/view?usp=sharing')"><strong>#5</strong><br>The Lost Ways</span></button>
+        </div>
+        
+        <div class="grid-item">
+            <button class="normal_button"><span onclick="window.open('https://drive.google.com/file/d/1WGasOVQzG5peZRtJxIRHpJ6HQ4_N9AH0/view?usp=sharing')"><strong>#6</strong><br>The Market Gardener</span></button>
+        </div>
+        
+        <div class="grid-item">
+            <button class="normal_button"><span onclick="window.open('https://drive.google.com/file/d/1WDCpHICpwuzqmXGwPL-uaXZOOjG3dsRO/view?usp=sharing')"><strong>#7</strong><br>The Urban Farmer</span></button>
+        </div>
+        
+        <div class="grid-item">
+            <button class="normal_button"><span onclick="window.open('https://drive.google.com/file/d/1WJ3areLGeyPQP8_K4xQg1hDQWl0w-6Dd/view?usp=sharing')"><strong>#8</strong><br>The Winter Harvest Handbook</span></button>
+        </div>
+        
+        <div class="grid-item">
+            <button class="normal_button"><span onclick="window.open('https://drive.google.com/file/d/1WMM62wr07FsAAPXLcTbKjdGVtWrdCrq6/view?usp=sharing')"><strong>#9</strong><br>Vegetable Gardeners Bible</span></button>
+        </div>
+        
+        <div class="grid-item">
+            <button class="normal_button"><span onclick="window.open('https://drive.google.com/file/d/1WOQwkZ9NxheLF6DNQri4UH6zewpim3Tt/view?usp=sharing')"><strong>#10</strong><br>Vegetable Gardeners Container Bible</span></button>
+        </div>
+        
+    </div>
+  
+</body>
+</html>
