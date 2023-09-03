@@ -39,6 +39,7 @@ make_index_html_to_use = '''
     <!-- <button class="menu_button"><span onclick="window.location='./audiobooks.html'">Audiobooks</span></button> -->
     <button class="menu_button"><span onclick="window.location='https://00psfreebooks.github.io/cliffnotes/'">Cliffnotes</span></button>
     <button class="menu_button"><span onclick="window.location='./dxp'">DXP</span></button>
+    <button class="menu_button"><span onclick="window.location='./throttle-body'">Throttle Body</span></button>
     <button class="menu_button"><span onclick="window.location='./donate.html'">Donate</span></button>
   </h3>
 
